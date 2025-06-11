@@ -1,4 +1,4 @@
-ARG NODE_VERSION='20.11.1'
+ARG NODE_VERSION='24.0.2'
 
 FROM node:${NODE_VERSION}-alpine AS build
 
