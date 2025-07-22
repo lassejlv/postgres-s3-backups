@@ -10,7 +10,7 @@ import { env } from "./env.js";
 import { createMD5 } from "./util.js";
 
 const uploadToS3 = async ({ name, path }: { name: string, path: string }) => {
-  console.log("Uploading backup to S3...");
+  console.log("Started uploading backup to S3...");
 
   const bucket = env.AWS_S3_BUCKET;
 
